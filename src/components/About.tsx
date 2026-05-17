@@ -20,7 +20,7 @@ export default function About() {
       >
         <h2 className="mb-6 text-3xl font-bold">关于我</h2>
         <p className="mb-10 max-w-2xl leading-relaxed text-muted">
-          在此撰写个人介绍：教育背景、工作经历、兴趣方向等。保持简洁，突出与你作品集相关的亮点。
+          Java 后端开发工程师，专注于企业级应用架构与 AI 智能体落地。具备高并发系统设计经验，熟悉 Spring Boot 微服务生态，同时深耕大模型应用开发——涵盖 RAG、Agent、Spring AI 等技术栈，致力于将 AI 能力融入业务系统。
         </p>
         <h3 className="mb-4 text-xl font-semibold">技能</h3>
         <ul className="flex flex-wrap gap-3">

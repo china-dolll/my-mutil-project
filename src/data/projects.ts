@@ -11,32 +11,30 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'portfolio',
-    name: '个人作品集',
+    id: 'ai-agent-platform',
+    name: 'AI 智能体中台',
     description:
-      '基于 React、TypeScript 与 Tailwind CSS 构建的响应式作品集站点，支持深色主题与滚动动画。',
+      '基于 Spring AI + LangChain4j 的企业级 Agent 编排平台，支持多模型接入、RAG 检索增强、工具调用链编排，内置对话记忆与多轮推理。',
     image: '/placeholder-project.svg',
-    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    demoUrl: '#',
+    techStack: ['Java 21', 'Spring Boot 3', 'Spring AI', 'LangChain4j', 'Redis', 'Docker'],
     repoUrl: '#',
   },
   {
-    id: 'drawboard',
-    name: '在线画板',
+    id: 'knowledge-base',
+    name: '企业知识库 RAG 系统',
     description:
-      '支持画笔、橡皮、撤销重做与导出的 Canvas 画板应用，注重交互流畅与本地持久化。',
+      '面向企业文档的智能问答系统，集成向量数据库与语义检索，支持 PDF/Word 等多格式解析，提供 RESTful API 与 WebSocket 实时对话。',
     image: '/placeholder-project.svg',
-    techStack: ['JavaScript', 'Canvas API', 'HTML5'],
-    demoUrl: '#',
+    techStack: ['Spring Boot', 'Elasticsearch', 'Qdrant', 'RabbitMQ', 'MySQL'],
     repoUrl: '#',
   },
   {
-    id: 'dashboard',
-    name: '数据看板',
+    id: 'microservice-platform',
+    name: '微服务基础平台',
     description:
-      '可视化数据面板示例，包含图表组件、筛选与暗色布局，适用于运营数据展示场景。',
+      '基于 Spring Cloud 的微服务脚手架，包含统一认证网关、分布式配置中心、服务熔断降级、链路追踪与 CI/CD 流水线。',
     image: '/placeholder-project.svg',
-    techStack: ['React', 'Vite', 'ECharts'],
-    demoUrl: '#',
+    techStack: ['Spring Cloud', 'Gateway', 'Nacos', 'Sentinel', 'SkyWalking', 'Docker'],
+    repoUrl: '#',
   },
 ]
