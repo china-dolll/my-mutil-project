@@ -16,8 +16,8 @@ const defaultProps: Required<HeroProps> = {
   name: '俊志-李',
   tagline: 'Java 后端开发 · AI 应用',
   bio: '专注于 Java 后端架构与大模型应用开发，擅长 Spring Boot 微服务、高并发系统设计与 AI 智能体落地。热爱技术深度与业务价值的交汇，欢迎浏览我的作品与技能。',
-  avatarSrc: '/avatar-placeholder.svg',
-  avatarAlt: '个人头像',
+  avatarSrc: '/avatar.jpg',
+  avatarAlt: '俊志-李',
 }
 
 /** 首页 Hero：大标题、简介、头像（深色主题 + 渐变强调） */
