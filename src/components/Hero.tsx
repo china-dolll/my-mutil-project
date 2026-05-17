@@ -13,7 +13,7 @@ export interface HeroProps {
 }
 
 const defaultProps: Required<HeroProps> = {
-  name: '你的名字',
+  name: '俊志-李',
   tagline: '前端开发者 · UI 爱好者',
   bio: '专注于用 React 与 TypeScript 构建简洁、高性能的 Web 体验。热爱设计与代码的交汇，欢迎浏览我的作品与技能。',
   avatarSrc: '/avatar-placeholder.svg',

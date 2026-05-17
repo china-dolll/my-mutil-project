@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 /** 联系方式：邮箱、GitHub、社交媒体 */
 const links = [
   { label: '邮箱', href: 'mailto:you@example.com' },
-  { label: 'GitHub', href: 'https://github.com/yourname' },
+  { label: 'GitHub', href: 'https://github.com/china-dolll' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/yourname' },
 ] as const
 
